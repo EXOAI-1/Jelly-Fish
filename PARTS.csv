@@ -1,0 +1,20 @@
+file,qty,material,plate_group,bbox_mm,notes,original_name
+01_capsule_upper.stl,1,PETG,1_magnet_test,66.0x66.0x66.0,Magnet-test first. Dry capsule upper can.,01b_bidon_sup.stl
+02_fuselage.stl,1,PETG,2_structure,66.0x66.0x147.0,O-ring groove in the collar. Do not print with 01 on first plate.,02b_fuselage.stl
+03_stub_axle.stl,1,PETG,1_magnet_test,26.0x26.0x48.5,Magnet-test. Bolts to can roof.,03_stub_axle.stl
+04_rotor_inner.stl,1,PETG,1_magnet_test,54.0x54.0x12.0,Magnet-test. 6× N52 8×3 pockets.,04_rotor_inner.stl
+05_rotor_outer.stl,1,PETG,1_magnet_test,64.0x65.5x48.0,Magnet-test. Wet-side rotor + Hall pips + cam keys.,05_rotor_cup.stl
+06_cam_3lobe.stl,1,PETG,2_structure,78.0x78.0x40.0,"3-lobe groove, 10 mm stroke. Sand burrs in the groove.",06s_came_3lobes.stl
+07_top_cap.stl,1,PETG,1_magnet_test,30.0x30.0x3.0,Magnet-test. 1× M3×8.,07_top_cap.stl
+08_stator.stl,1,PETG,2_structure,126.0x126.0x99.0,"ONLY part that needs supports. Tree Slim, not normal.",08s_stator_v6.stl
+09_slider_ring.stl,1,PETG,2_structure,112.6x110.0x14.0,3 pins ride the cam groove. 8 tentacle slots.,09s_anneau_coulissant.stl
+13_float_dome.stl,1,Transparent PETG,4_dome,160.0x160.0x53.0,Own plate — 160 mm Ø. Extra outer walls. Ironing optional.,13e_dome_flotteur.stl
+13_float_disk.stl,1,Transparent PETG,5_dome_seal,145.0x145.0x3.0,"Glues on internal shoulder, sealed ~195 cm³ chamber.",13f_disque_flotteur.stl
+13_float_plug.stl,1,Transparent PETG,5_dome_seal,30.0x30.0x6.0,Apex plug / oculus. Same plate as disk.,13g_bouchon_apex.stl
+18_ballast_trellis.stl,1,PETG,2_structure,33.0x33.0x60.0,Holds ~40 g fishing sinkers.,18_treillis_lest.stl
+19_tentacle_skeleton_TPU_x8.stl,8,TPU 95A,3_tpu,30.0x154.0x9.4,"Default tentacle path. Print ONE first, overlay gabarit, then ×8. External spool.",19_squelette_TPU_x8.stl (reconstruction; NOT 21)
+20_tentacle_bar_PETG_x8.stl,8,PETG,2_structure,18.0x20.0x7.7,Fits leftover space on structure plate. 8.0×2.8 tab into stator slots.,20_barrette_PETG_x8.stl (reconstruction)
+optional/clamp_old_x16.stl,16,PETG,optional_legacy,14x10x16.2,OLD tentacle clamp. Not the default kit path.,medusa_v6.scad clamp
+optional/rib_old_x40.stl,40,PETG,optional_legacy,20x18x2.5,OLD tentacle rib/comb. Not the default kit path.,medusa_v6.scad rib
+optional/paddle_old_x8.stl,8,PETG,optional_legacy,~36x34x2.2,OLD tentacle paddle. Not the default kit path.,medusa_v6.scad paddle
+optional/legacy_21_flanc_TPU_NOT_piece19.stl,0,TPU 95A,do_not_print,22x209x7.4,Original file 21. Wrong geometry for notice piece 19. Do not print as skeleton.,21_flanc_superieur_TPU_x8.stl
